@@ -35,3 +35,7 @@
     
     
 /* Task 4 using jQuery */
+     $('#addText4').click(function(event){
+         var paragraph = $('<p>').text("Hello World");
+         $('#task4a').append(paragraph);
+     });
