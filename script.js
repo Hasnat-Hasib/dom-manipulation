@@ -47,3 +47,9 @@
          
          
      }
+     
+     //Task4c
+     $('#sum').click(function(even){
+         var sum = Number($('#num1').val())+ Number($('#num2').val())
+         $('#answer').text(sum)
+     })
